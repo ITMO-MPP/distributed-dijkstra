@@ -70,7 +70,8 @@ object MarkerMessage : Message()
 ## Формат сдачи
 
 Выполняйте задание в этом репозитории. 
-**Ваш код должен быть реализован в одном файле [`src/ProcessImpl.kt`](src/ProcessImpl.kt) или `src/ProcessImpl.java`**.
+**Код процесса должен быть реализован в одном файле [`src/ProcessImpl.kt`](src/ProcessImpl.kt) или `src/ProcessImpl.java`,
+все типы сообщений должны быть описаны в одном файле [`src/Message.kt`](src/Message.kt)**.
 
 Инструкции по сдаче заданий находятся в 
 [этом документе](https://docs.google.com/document/d/1GQ0OI_OBkj4kyOvhgRXfacbTI9huF4XJDMOct0Lh5og). 
